@@ -107,7 +107,7 @@ int main(){
 
 allegro_init();
 install_keyboard();
-
+/*
 install_sound (DIGI_AUTODETECT, MIDI_AUTODETECT, NULL);
 MIDI *music;
 music = load_midi("./99.midd");
@@ -115,6 +115,7 @@ if (!music)
     {std::cerr<<"Couldn't load background music!"<<std::endl;exit(1);}
 else
 	play_midi(music,1);
+*/
 set_gfx_mode( GFX_AUTODETECT, 1920, 1200, 0, 0);
 buffer = create_bitmap( 1920, 1200); 
 
@@ -134,12 +135,13 @@ buffer = create_bitmap( 1920, 1200);
         draw();
 
 	}
+	/*
 	if(music)
 	{
 	stop_midi();
 	destroy_midi(music);
 	}
-
+	*/
 return 0;
 }
 
