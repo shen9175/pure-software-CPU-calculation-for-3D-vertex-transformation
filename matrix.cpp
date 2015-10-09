@@ -3,7 +3,7 @@
 
 
 using namespace std;
-
+/*
 int main()
 {
 	GeneralSlowMatrix<int> a;
@@ -42,3 +42,4 @@ int main()
 	cout<<g.Inverse()<<endl;
 
 }
+*/
