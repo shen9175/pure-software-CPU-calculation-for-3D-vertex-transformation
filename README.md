@@ -2,6 +2,8 @@
 To get better understanding the math behind the 3D graphic,
 I wrote a CPU based matrix transformation math library using homebrew generalized matrix class
 
+watch the video demo on youtube: https://youtu.be/kVWDJc1tpt4
+
 This matrix class is very generic template and it can be used in any dimension matrix
 by using all classic math text book method to implement matrix ADD/SUB/MUL/Reverse/Transpose etc operations.
 I call it general slow matrix class, since it is only for fun. 
@@ -16,4 +18,4 @@ to rotate the 3D cube.
 
 The realtime rotation is done by the slow generalize matrix class calculation through the 3D vertex pipeline.
 
-
+watch the video demo on youtube: https://youtu.be/kVWDJc1tpt4
